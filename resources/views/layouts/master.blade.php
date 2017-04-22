@@ -3,6 +3,8 @@
     {{-----this is my header --}}
     @include('layouts.includes.partial.header')
 
+
+
     <body class="nav-md">
         <div class="container body">
             <div class="main_container">
@@ -64,7 +66,9 @@
                 <!-- page content -->
                 <div class="right_col" role="main">
 
-                    @include('layouts.includes.partial.content')
+                    {{--@include('layouts.includes.partial.content')--}}
+
+                    @yield('content')
 
                 </div>
 
@@ -119,9 +123,12 @@
         <!-- bootstrap-daterangepicker -->
         <script src="{{url('js/vendors/moment/min/moment.min.js')}}"></script>
         <script src="{{url('js/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
+        <script src="{{url('bower-components/bootstrap-sweetalert/dist/sweetalert.js')}}"></script>
 
         <!-- Custom Theme Scripts -->
         <script src="{{url('js/build/js/custom.min.js')}}"></script>
+
+        @yield('after-script-end')
 
     </body>
 </html>

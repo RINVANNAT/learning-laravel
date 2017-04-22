@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title> @yield('title')</title>
 
     <!-- Bootstrap -->
     <link href="{{url('js/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -25,4 +25,8 @@
 
     <!-- Custom Theme Style -->
     <link href="{{url('js/build/css/custom.min.css')}}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{url('bower-components/bootstrap-sweetalert/dist/sweetalert.css')}}">
+
+    @yield('after-style-end')
 </head>

@@ -1,21 +1,18 @@
 <div class="menu_section">
     <h3>General</h3>
     <ul class="nav side-menu">
-        <li><a><i data-ico class=""></i> Home <span class="fa fa-chevron-down"></span></a>
+        <li><a><i data-ico class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
             <ul class="nav child_menu">
                 <li><a href="index.html">Dashboard</a></li>
                 <li><a href="index2.html">Dashboard2</a></li>
                 <li><a href="index3.html">Dashboard3</a></li>
             </ul>
         </li>
-        <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+        <li><a><i class="fa fa-edit"></i> Access Managment <span class="fa fa-chevron-down"></span></a>
             <ul class="nav child_menu">
-                <li><a href="form.html">General Form</a></li>
-                <li><a href="form_advanced.html">Advanced Components</a></li>
-                <li><a href="form_validation.html">Form Validation</a></li>
-                <li><a href="form_wizards.html">Form Wizard</a></li>
-                <li><a href="form_upload.html">Form Upload</a></li>
-                <li><a href="form_buttons.html">Form Buttons</a></li>
+                <li><a href="{{route('user.index')}}">User</a></li>
+                <li><a href="form_advanced.html">Role</a></li>
+                <li><a href="form_validation.html">Permission</a></li>
             </ul>
         </li>
         <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
