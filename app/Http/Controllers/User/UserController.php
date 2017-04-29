@@ -19,7 +19,7 @@ class UserController extends Controller
 
     }
 
-    public function index1() {
+    public function index() {
 
         $users = User::get();
         return view('admin.user.index', compact('users'));
@@ -27,7 +27,7 @@ class UserController extends Controller
 
 
 
-    public function index() {
+    public function index_() {
 
         $input = [
             'name' => 'Daney',

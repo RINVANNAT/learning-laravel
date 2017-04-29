@@ -123,10 +123,12 @@
         <!-- bootstrap-daterangepicker -->
         <script src="{{url('js/vendors/moment/min/moment.min.js')}}"></script>
         <script src="{{url('js/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
-        <script src="{{url('bower-components/bootstrap-sweetalert/dist/sweetalert.js')}}"></script>
+        <script src="{{url('bower_components/bootstrap-sweetalert/dist/sweetalert.js')}}"></script>
 
         <!-- Custom Theme Scripts -->
         <script src="{{url('js/build/js/custom.min.js')}}"></script>
+
+
 
         @yield('after-script-end')
 

@@ -26,7 +26,9 @@
     <!-- Custom Theme Style -->
     <link href="{{url('js/build/css/custom.min.css')}}" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{url('bower-components/bootstrap-sweetalert/dist/sweetalert.css')}}">
+    <link rel="stylesheet" href="{{url('bower_components/bootstrap-sweetalert/dist/sweetalert.css')}}">
+    {{--<link rel="stylesheet" href="{{url('bower_components/datatables/media/css/jquery.dataTables.min.css')}}">--}}
+    <link rel="stylesheet" href="{{url('bower_components/datatables/media/css/dataTables.bootstrap.min.css')}}">
 
     @yield('after-style-end')
 </head>
